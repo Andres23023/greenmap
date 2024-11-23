@@ -76,6 +76,6 @@ jobs:
       - name: Deploy to GitHub Pages 🚀
         if: github.event_name == 'push'
         id: deployment
-        uses: actions/deploy-pages@5  # Actualizamos a la versión v5
+        uses: actions/deploy-pages@v3 # Actualizamos a la versión v5
         with:
           artifact_name: web-build-artifact
